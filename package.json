@@ -1,0 +1,36 @@
+{
+  "name": "dime-frontend",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build"
+  },
+  "dependencies": {
+    "ajv": "^6.5.3",
+    "axios": "^0.18.0",
+    "chart.js": "^2.7.2",
+    "hchs-vue-charts": "^1.2.8",
+    "highcharts": "^6.1.1",
+    "jquery": "^3.3.1",
+    "vue": "^2.5.17",
+    "vue-chartjs": "^3.4.0",
+    "vue-router": "^3.0.1",
+    "vuejs-datepicker": "^1.5.3"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^3.0.0",
+    "@vue/cli-service": "^3.0.0",
+    "vue-template-compiler": "^2.5.17"
+  },
+  "postcss": {
+    "plugins": {
+      "autoprefixer": {}
+    }
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8"
+  ]
+}
